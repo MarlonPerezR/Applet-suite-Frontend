@@ -12,11 +12,11 @@ This project was created for learning and demonstration purposes and does not us
 
 1️⃣ Install dependencies
 Make sure you have Node.js and npm installed, then run:
-*npm install*
+_npm install_
 
 2️⃣ Start the development server
 
-*npm start*
+_npm start_
 
 Open http://localhost:3000 in your browser to see the project.
 The page will reload automatically when you make changes.
