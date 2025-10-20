@@ -1,14 +1,15 @@
 # 🌐 Applet Suite Frontend
+
 🧩 Description
 Applet Suite Frontend is a React web project that showcases small and useful apps like a unit converter, a weather viewer, a chatbot, and more.
 It features a clean and easy-to-use design and connects to a simple Spring Boot backend API.
 This project was created for learning and demonstration purposes and does not use a database.
 ---
-# 🎥 Project Presentation Video
+##🎥 Project Presentation Video
 
 
 ---
-# How to Run the Project
+## How to Run the Project
 
 1️⃣ Install dependencies
 Make sure you have Node.js and npm installed, then run:
@@ -28,7 +29,7 @@ To create an optimized version of the project for deployment:
 npm run build
 This will create a build folder with all the static files ready for hosting on Vercel or another platform.
 ---
-# Technologies Used
+## 🛠️ Technologies Used
 React – Frontend framework
 
 JavaScript (ES6+) – Programming language
@@ -37,10 +38,15 @@ HTML5 / CSS3 – Interface and layout
 
 Spring Boot – Backend  (You can see it in the Applet-suite-Backend repository)
 
-Vercel – Frontend deployment
+Vercel – Frontend deployment 
 
 Render – Backend deployment
+
 ---
-# Author
+## 👥 Developed By
+
 Marlon Pérez R.
+
+https://github.com/MarlonPerezR
+
 https://www.linkedin.com/in/marlonpérez/
