@@ -24,6 +24,7 @@ _npm start_
 
 Open http://localhost:3000 in your browser to see the project.
 The page will reload automatically when you make changes.
+
 ⚠️ Note: To make the project work correctly, you also need to run the backend available here: https://github.com/MarlonPerezR/Applet-suite-Backend
 
 ---
