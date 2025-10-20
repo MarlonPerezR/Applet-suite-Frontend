@@ -12,6 +12,7 @@ This project was created for learning and demonstration purposes and does not us
 
 1️⃣ Install dependencies
 Make sure you have Node.js and npm installed, then run:
+
 _npm install_
 
 2️⃣ Start the development server
