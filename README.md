@@ -57,7 +57,7 @@ https://portfolio-mu-fawn-47.vercel.app/
 https://github.com/MarlonPerezR
 
 https://www.linkedin.com/in/marlonpérez/
-
+---
 ## 📄 License
 
 This project is for personal use. © 2025 Marlon Pérez - All rights reserved.
