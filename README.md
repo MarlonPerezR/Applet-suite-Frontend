@@ -11,6 +11,41 @@ This project was created for learning and demonstration purposes and does not us
 
 
 ---
+## 🧱 Project Structure
+```
+Frontend/
+├── build/                            # Production build (generated after npm run build)
+├── node_modules/                     # Project dependencies
+├── public/                           # Static public files (index.html, favicon, etc.)
+│   └── index.html
+│
+├── src/                              # Main React source code
+│   ├── components/                   # Applets and main components
+│   │   ├── AppletBuscadorPeliculas.js
+│   │   ├── AppletCalculadora.js
+│   │   ├── AppletChatbot.js
+│   │   ├── AppletClima.js
+│   │   ├── AppletConversor.js
+│   │   ├── AppletGeneradorColores.js
+│   │   ├── AppletGeneradorPasswords.js
+│   │   └── AppletReproductor.js
+│   │
+│   ├── App.css                       # Main styling file
+│   ├── App.test.js                   # Unit tests for main components
+│   ├── Applets.css                   # Styles specific to applets
+│   ├── index.css                     # Global styles
+│   ├── index.js                      # React entry point
+│   ├── logo.svg                      # App logo
+│   ├── reportWebVitals.js            # Performance tracking
+│   └── setupTests.js                 # Jest setup file
+│
+├── .gitignore                        # Files and folders ignored by Git
+├── package.json                      # Project dependencies and scripts
+├── package-lock.json                 # Exact dependency versions
+└── README.md                         # Project documentation
+```
+
+
 ## How to Run the Project
 
 1️⃣ Install dependencies
