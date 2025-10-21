@@ -127,7 +127,7 @@ const AppletGeneradorColores = () => {
   // Función para el backend (solo para tipo aleatorio)
   const generarPaletaBackend = useCallback(async () => {
     try {
-      const response = await fetch('http://localhost:8080/api/colores/paleta');
+      const response = await fetch(`${process.env.REACT_APP_BACKEND_URL}/api/colores/paleta`);
       
       if (!response.ok) {
         throw new Error(`Error HTTP: ${response.status}`);

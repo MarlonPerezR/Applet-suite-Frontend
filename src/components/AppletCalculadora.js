@@ -57,7 +57,7 @@ const AppletCalculadora = () => {
 
   const calculate = useCallback(async (firstValue, secondValue, operation) => {
     try {
-      const response = await fetch("http://localhost:8080/api/calculadora/calcular", {
+      const response = await fetch(`${process.env.REACT_APP_BACKEND_URL}/api/calculadora/calcular`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -117,7 +117,7 @@ const AppletCalculadora = () => {
     const inputValue = parseFloat(display);
     
     try {
-      const response = await fetch('http://localhost:8080/api/calculadora/calcular/unario', {
+      const response = await fetch(`${process.env.REACT_APP_BACKEND_URL}/api/calculadora/calcular/unario`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

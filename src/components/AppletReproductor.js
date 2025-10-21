@@ -165,7 +165,7 @@ const AppletReproductor = () => {
     setError("");
     try {
       const response = await fetch(
-        `http://localhost:8080/api/musica/buscar?query=${encodeURIComponent(
+        `${process.env.REACT_APP_BACKEND_URL}/api/musica/buscar?query=${encodeURIComponent(
           query
         )}`
       );

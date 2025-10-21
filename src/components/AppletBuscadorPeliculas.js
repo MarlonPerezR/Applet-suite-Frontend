@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../Applets.css";
 
-const BACKEND_URL = "http://localhost:8080/api/peliculas";
+const BACKEND_URL = `${process.env.REACT_APP_BACKEND_URL}/api/peliculas`;
 
 const AppletBuscadorPeliculas = () => {
   const [searchTerm, setSearchTerm] = useState("");

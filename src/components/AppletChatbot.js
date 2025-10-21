@@ -73,7 +73,7 @@ const AppletChatbot = () => {
 
     try {
       // ✅ LLAMAR AL BACKEND SPRING BOOT
-      const response = await fetch('http://localhost:8080/api/chatbot/chat', {
+      const response = await fetch(`${process.env.REACT_APP_BACKEND_URL}/api/chatbot/chat`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

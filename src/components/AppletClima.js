@@ -25,7 +25,7 @@ const AppletClima = () => {
   const obtenerPronostico = useCallback(async (ciudadParam) => {
     try {
       const response = await fetch(
-        `http://localhost:8080/api/clima/pronostico?ciudad=${ciudadParam}`
+        `${process.env.REACT_APP_BACKEND_URL}/api/clima/pronostico?ciudad=${ciudadParam}`
       );
       
       if (response.ok) {
@@ -49,7 +49,7 @@ const AppletClima = () => {
       setCargando(true);
       
       const response = await fetch(
-        `http://localhost:8080/api/clima/coordenadas?lat=${lat}&lon=${lon}`
+        `${process.env.REACT_APP_BACKEND_URL}/api/clima/coordenadas?lat=${lat}&lon=${lon}`
       );
       
       const data = await response.json();
@@ -103,7 +103,7 @@ const AppletClima = () => {
     
     try {
       const response = await fetch(
-        `http://localhost:8080/api/clima/ciudad?ciudad=${encodeURIComponent(ubicacion)}`
+        `${process.env.REACT_APP_BACKEND_URL}/api/clima/ciudad?ciudad=${encodeURIComponent(ubicacion)}`
       );
       
       if (!response.ok) {

@@ -31,7 +31,7 @@ const AppletConversor = () => {
       try {
         setCargando(true);
         setError('');
-        const response = await fetch(`http://localhost:8080/api/conversor/unidades/${tipoConversion}`);
+        const response = await fetch(`${process.env.REACT_APP_BACKEND_URL}/api/conversor/unidades/${tipoConversion}`);
         
         if (!response.ok) {
           throw new Error('Error al cargar unidades');
@@ -74,7 +74,7 @@ const AppletConversor = () => {
     setError('');
 
     try {
-      const response = await fetch('http://localhost:8080/api/conversor/convertir', {
+      const response = await fetch(`${process.env.REACT_APP_BACKEND_URL}/api/conversor/convertir`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
