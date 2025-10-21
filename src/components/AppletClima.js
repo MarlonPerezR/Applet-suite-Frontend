@@ -25,10 +25,10 @@ const AppletClima = () => {
   const obtenerPronostico = useCallback(async (ciudadParam) => {
     try {
       const response = await fetch(
-        `${process.env.REACT_APP_BACKEND_URL}/api/clima/pronostico?ciudad=${ciudadParam}`
+        `https://applet-suite-backend.onrender.com/api/clima/pronostico?ciudad=${ciudadParam}`
       );
       
-      if (response.ok) {
+      if (response.ok) { 
         const pronosticoData = await response.json();
         if (pronosticoData.pronostico && !pronosticoData.error) {
           setClima(prev => ({
