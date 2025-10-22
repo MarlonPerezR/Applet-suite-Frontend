@@ -165,7 +165,7 @@ const AppletReproductor = () => {
     setError("");
     try {
       const response = await fetch(
-        `https://applet-suite-backend.onrender.com/api/musica/buscar?query=${encodeURIComponent(
+        `${process.env.REACT_APP_BACKEND_URL}/api/musica/buscar?query=${encodeURIComponent(
           query
         )}`
       );

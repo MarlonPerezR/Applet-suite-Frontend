@@ -25,7 +25,7 @@ const AppletClima = () => {
   const obtenerPronostico = useCallback(async (ciudadParam) => {
     try {
       const response = await fetch(
-        `https://applet-suite-backend.onrender.com/api/clima/pronostico?ciudad=${ciudadParam}`
+        `${process.env.REACT_APP_BACKEND_URL}/api/clima/pronostico?ciudad=${ciudadParam}`
       );
       
       if (response.ok) { 

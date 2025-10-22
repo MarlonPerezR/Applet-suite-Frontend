@@ -76,7 +76,7 @@ const AppletChatbot = () => {
     try {
       // ✅ LLAMAR AL BACKEND SPRING BOOT
       const response = await fetch(
-        "https://applet-suite-backend.onrender.com/api/chatbot/chat",
+        `${process.env.REACT_APP_BACKEND_URL}/api/chatbot/chat`,
         {
           method: "POST",
           headers: {
