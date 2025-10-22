@@ -103,7 +103,7 @@ const AppletClima = () => {
     
     try {
       const response = await fetch(
-        `${process.env.REACT_APP_BACKEND_URL}/api/clima/ciudad?ciudad=${encodeURIComponent(ubicacion)}`
+        `https://applet-suite-backend.onrender.com/api/clima/ciudad?ciudad=${encodeURIComponent(ubicacion)}`
       );
       
       if (!response.ok) {
