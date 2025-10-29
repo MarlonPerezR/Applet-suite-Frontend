@@ -10,6 +10,7 @@ This project was created for learning and demonstration purposes and does not us
 ---
 ## 🎥 Project Presentation Video
 
+https://youtu.be/39t2YYWcwEU
 
 ---
 ## 🧱 Project Structure
