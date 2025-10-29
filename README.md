@@ -2,6 +2,7 @@
 # 🌐 Applet Suite Frontend
 
 🧩 Description
+
 Applet Suite Frontend is a React web project that showcases small and useful apps like a unit converter, a weather viewer, a chatbot, and more.
 It features a clean and easy-to-use design and connects to a simple Spring Boot backend API.
 This project was created for learning and demonstration purposes and does not use a database.
